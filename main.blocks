@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="giL{i#w2$J8-1G3=%!D2">Player</variable><variable type="KIND_SpriteKind" id="p)5#11evtNnnM/+!]!cG">Projectile</variable><variable type="KIND_SpriteKind" id="L.Mw]Ui@bQN$n5J.4lYA">Food</variable><variable type="KIND_SpriteKind" id="y8L9V2fSm9Lg]vQ._se(">Enemy</variable><variable id="`M#@Z(K^{{1T9qI_OsZg">Dr.crazy</variable><variable id="_Vv-y%Hp5Knl}a4kVV,l">mySprite</variable></variables><block type="pxt-on-start" id="?dIvEg3cs05%U*C8_w=:" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="fOegsTMAME7E2w.Yg)YC"><field name="VAR" id="`M#@Z(K^{{1T9qI_OsZg">Dr.crazy</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="gmN9gZy9`~TE~M%D:x[z"><value name="img"><shadow type="screen_image_picker" id="0FeVcGDkfsP+V[N3`:u0"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . e e e e . . . . . . . . 
+. . . . 4 f 4 f . . . . . . . . 
+. . . . 4 2 4 2 . . . . . . . . 
+. . . . 4 4 4 4 . . . . . . . . 
+. . . 8 8 8 8 8 8 . . . . . . . 
+. . . 4 8 8 8 8 4 . . . . . . . 
+. . . 4 8 8 8 8 4 . . . . . . . 
+. . . . 9 9 9 9 . . . . . . . . 
+. . . . 9 . . 9 . . . . . . . . 
+. . . . f . . f . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"0FeVcGDkfsP+V[N3`:u0"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="[@XclKA$%t[h[D^gps]/"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="@p/Wh^{M)i,OpsI`+S)y"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="2" _input_init="true"></mutation><value name="sprite"><block type="variables_get" id="5qpppehbY^vRZZ?mt=aP"><field name="VAR" id="`M#@Z(K^{{1T9qI_OsZg">Dr.crazy</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="py9b*%PLXfX`GiIi?CUX"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="=gqpimUk1OW`9{2-R?m#"><field name="speed">0</field></shadow></value><next><block type="set_current_tilemap" id="S25M7AxO8BK)~r(=9tcs"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="c)ZUp23w;*ilrHT2qx#5"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data></shadow></value></block></next></block></next></block></statement></block></xml>
